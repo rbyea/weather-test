@@ -1,0 +1,29 @@
+.root {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  img {
+    border-radius: 10px;
+    text-align: center;
+    left: 7px;
+    position: relative;
+  }
+}
+
+.listname {
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+  li {
+    list-style-type: none;
+    flex: 1;
+  }
+}

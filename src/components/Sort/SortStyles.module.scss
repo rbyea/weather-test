@@ -1,0 +1,27 @@
+.root {
+  list-style-type: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  li {
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  li {
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.list {
+  color: red;
+} 
+
